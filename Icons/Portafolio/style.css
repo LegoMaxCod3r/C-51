@@ -1,0 +1,71 @@
+h1
+{
+    font: italic;
+    color:rgb(17, 94, 58);
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+h2
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+
+}
+
+p
+{
+    text-align: center;
+    margin-left: 20px;
+    justify-content: center;
+    border-color: rgb(255, 237, 133);
+}
+
+.subheader
+{
+    display: flex;
+    background-color: rgb(255, 194, 40);
+    justify-content: center;
+
+    
+}
+
+*
+{
+    border: solid;
+}
+
+.header
+{
+    background-color:rgb(176, 196, 223);
+    display: flex;
+    justify-content:space-between;
+}
+
+.grid
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(255, 194, 40);
+    justify-content: space-evenly;
+    border-color: cornflowerblue;
+}
+
+.site-description
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.footer
+{
+    display: flex;
+    justify-content:center;
+    
+}
